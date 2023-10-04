@@ -11,6 +11,15 @@
 		9D517CCE2ACD3FAE00AC7F59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D517CCD2ACD3FAE00AC7F59 /* ContentView.swift */; };
 		9D517CD02ACD3FB000AC7F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D517CCF2ACD3FB000AC7F59 /* Assets.xcassets */; };
 		9D517CD32ACD3FB000AC7F59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D517CD22ACD3FB000AC7F59 /* Preview Assets.xcassets */; };
+		9D517CDD2ACD48A500AC7F59 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D517CDC2ACD48A500AC7F59 /* SplashScreen.swift */; };
+		9D517CDF2ACD53B500AC7F59 /* SplashScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D517CDE2ACD53B500AC7F59 /* SplashScreen2.swift */; };
+		9D517CE12ACD5F8A00AC7F59 /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D517CE02ACD5F8A00AC7F59 /* homeScreen.swift */; };
+		9D6051DB2AD4134B0014B87F /* AccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6051DA2AD4134A0014B87F /* AccountPage.swift */; };
+		9D6051DD2AD41B320014B87F /* remiderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6051DC2AD41B320014B87F /* remiderView.swift */; };
+		9D6051E12AD41ED30014B87F /* addAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6051E02AD41ED30014B87F /* addAlerts.swift */; };
+		9D6051E32AD43B560014B87F /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6051E22AD43B560014B87F /* WeatherModel.swift */; };
+		9D6051E52AD43EFF0014B87F /* weatherModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6051E42AD43EFF0014B87F /* weatherModelView.swift */; };
+		9D7289DB2AD4BB0700E39BE7 /* appData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7289DA2AD4BB0700E39BE7 /* appData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		9D517CCD2ACD3FAE00AC7F59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D517CCF2ACD3FB000AC7F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D517CD22ACD3FB000AC7F59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D517CDC2ACD48A500AC7F59 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		9D517CDE2ACD53B500AC7F59 /* SplashScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen2.swift; sourceTree = "<group>"; };
+		9D517CE02ACD5F8A00AC7F59 /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
+		9D6051DA2AD4134A0014B87F /* AccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountPage.swift; sourceTree = "<group>"; };
+		9D6051DC2AD41B320014B87F /* remiderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remiderView.swift; sourceTree = "<group>"; };
+		9D6051E02AD41ED30014B87F /* addAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addAlerts.swift; sourceTree = "<group>"; };
+		9D6051E22AD43B560014B87F /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		9D6051E42AD43EFF0014B87F /* weatherModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModelView.swift; sourceTree = "<group>"; };
+		9D7289DA2AD4BB0700E39BE7 /* appData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,9 @@
 		9D517CCA2ACD3FAE00AC7F59 /* WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				9D517CDB2ACD488600AC7F59 /* modelView */,
+				9D517CDA2ACD487E00AC7F59 /* Models */,
+				9D517CD92ACD486C00AC7F59 /* Views */,
 				9D517CCB2ACD3FAE00AC7F59 /* WeatherAppApp.swift */,
 				9D517CCD2ACD3FAE00AC7F59 /* ContentView.swift */,
 				9D517CCF2ACD3FB000AC7F59 /* Assets.xcassets */,
@@ -65,6 +86,36 @@
 				9D517CD22ACD3FB000AC7F59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D517CD92ACD486C00AC7F59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D517CDC2ACD48A500AC7F59 /* SplashScreen.swift */,
+				9D517CDE2ACD53B500AC7F59 /* SplashScreen2.swift */,
+				9D517CE02ACD5F8A00AC7F59 /* homeScreen.swift */,
+				9D6051DA2AD4134A0014B87F /* AccountPage.swift */,
+				9D7289DA2AD4BB0700E39BE7 /* appData.swift */,
+				9D6051DC2AD41B320014B87F /* remiderView.swift */,
+				9D6051E02AD41ED30014B87F /* addAlerts.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D517CDA2ACD487E00AC7F59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D6051E22AD43B560014B87F /* WeatherModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D517CDB2ACD488600AC7F59 /* modelView */ = {
+			isa = PBXGroup;
+			children = (
+				9D6051E42AD43EFF0014B87F /* weatherModelView.swift */,
+			);
+			path = modelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +146,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					9D517CC72ACD3FAE00AC7F59 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D517CDD2ACD48A500AC7F59 /* SplashScreen.swift in Sources */,
+				9D517CE12ACD5F8A00AC7F59 /* homeScreen.swift in Sources */,
+				9D6051DB2AD4134B0014B87F /* AccountPage.swift in Sources */,
 				9D517CCE2ACD3FAE00AC7F59 /* ContentView.swift in Sources */,
+				9D6051E32AD43B560014B87F /* WeatherModel.swift in Sources */,
 				9D517CCC2ACD3FAE00AC7F59 /* WeatherAppApp.swift in Sources */,
+				9D7289DB2AD4BB0700E39BE7 /* appData.swift in Sources */,
+				9D517CDF2ACD53B500AC7F59 /* SplashScreen2.swift in Sources */,
+				9D6051E12AD41ED30014B87F /* addAlerts.swift in Sources */,
+				9D6051DD2AD41B320014B87F /* remiderView.swift in Sources */,
+				9D6051E52AD43EFF0014B87F /* weatherModelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +241,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -195,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -241,6 +302,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -249,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -266,7 +328,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HHXL39G98G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +338,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -283,7 +348,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -294,7 +359,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"WeatherApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HHXL39G98G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +379,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
